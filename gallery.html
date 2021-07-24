@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>WeCat</title>
+        <div id="container">
+            <!--Brand of website-->
+            <header id="header-1"></header>
+            <!--Main Navigation-->
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="adoption.html">Adoption</a></li>
+                    <li><img src="images/cat.png" alt="logo"></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <!--End Main Navigation-->
+    </head>
+    
+    <body><!--Star with main container-->
+        <main class="home">
+            <h1 class="home-h1">ADOPT WITH US AND BRING A NEW FAMILY HOME TODAY!</h1>
+            <h3 class="home-h3">Types of Kitten you can adoption</h3>
+            <br><br>
+
+            <div>
+                <ul id="album">
+                    
+                </ul>
+            </div>
+        </main>
+    </body>
+   
+    <footer>
+        <div id="nondisclaimer">
+            <div class="social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+            </div>
+        </div>
+        <div id="disclaimer">
+            <p>&copy;Copyright 2020 WeCat.com</p>
+            <p>This website is designed and created solely for educational purposes only at Westcliff University. All contents are not intended for any commercial gain or use.</p>
+        </div>
+    </footer>
+
+    <script>
+            var photos = [];
+            var fileNames = [];
+            var imageList = [];
+            var image;
+            var openList = "<li class='photo'>";
+            var closeList = "</li>"; 
+            var captions = [];
+            var captionName = [];
+            var openCaptionTag = "<caption class='caption'>";
+            var closeCaptionTag = "</caption>";
+            var description;
+            var descText = "Adopt Me Now...";
+            var openDescTag = "<p class='description'>";
+            var closeDescTag = "</p>"
+
+            //create a loop to create 6 images starting with index of 0
+            for (var i=0; i<10; i++) {
+                fileNames.push("cat"+(i+1));
+                captionName.push("License number:A000" + (i+1));
+                photos.push("<img src='images/" + fileNames[i] + ".jpeg'/>");
+                captions.push(openCaptionTag + "<h3>"+ captionName[i] + "</h3>" + closeCaptionTag);
+                description= openDescTag + descText +closeDescTag;
+                image = openList + photos[i] + captions[i] + description  + closeList;
+                imageList.push(image);
+
+            }
+
+
+            //display all six image codes stored in the array
+            document.getElementById("album").innerHTML = imageList;
+
+
+
+    </script>
+
+
+</html>
+
+                <!--<li class="photo"><img src="images/cat1.jpeg" alt="cat1"></li>
+                <caption class="caption"><h3>License number:A0001</h3></caption>
+                <p class="description">A cute cat</p>
+                <li class="photo"><img src="images/cat2.jpeg" alt="cat2"></li>
+                <caption class="caption"><h3>License number:A0002</h3></caption>
+                <p class="description">A cute cat</p>
+                <li class="photo"><img src="images/cat3.jpeg" alt="cat3"></li>
+                <caption class="caption"><h3>License number:A0003</h3></caption>
+                <p class="description">A cute cat</p>
+                <li class="photo"><img src="images/cat4.jpeg" alt="cat4"></li>
+                <caption class="caption"><h3>License number:A0004</h3></caption>
+                <p class="description">A cute cat</p>
+                <li class="photo"><img src="images/cat5.jpeg" alt="cat5"></li>
+                <caption class="caption"><h3>License number:A0005</h3></caption>
+                <p class="description">A cute cat</p>
+                <li class="photo"><img src="images/cat6.jpeg" alt="cat6"></li>
+                <caption class="caption"><h3>License number:A0006</h3></caption>
+                <p class="description">A cute cat</p>
+                <li class="photo"><img src="images/cat7.jpeg" alt="cat7"></li>
+                <caption class="caption"><h3>License number:A0007</h3></caption>
+                <p class="description">A cute cat</p>
+                <li class="photo"><img src="images/cat8.jpeg" alt="cat8"></li>
+                <caption class="caption"><h3>License number:A0008</h3></caption>
+                <p class="description">A cute cat</p>
+                <li class="photo"><img src="images/cat9.jpeg" alt="cat9"></li>
+                <caption class="caption"><h3>License number:A0009</h3></caption>
+                <p class="description">A cute cat</p>
+                <li class="photo"><img src="images/cat10.jpeg" alt="cat10"></li>
+                <caption class="caption"><h3>License number:A00010</h3></caption>
+                <p class="description">A cute cat</p>-->

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>WeCat</title>
+        <div id="container">
+            <!--Brand of website-->
+            <header id="header-3"></header>
+            <!--Main Navigation-->
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="adoption.html">Adoption</a></li>
+                    <li><img src="images/cat.png" alt="logo"></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <!--End Main Navigation-->
+    </head>
+
+    <body>
+        <main>
+    <form action="/signup" method="POST">
+        <fieldset>
+            <legend><h2 class="contact-h2">Adoption Contact</h2></legend>
+            <div class="formstyle">
+            <label>First Name</label>
+                <input type="text" name="name">
+            <label>Middle Name</label>
+                <input type="text" name="name">
+            <label>Last Name</label>
+                <input type="text" name="name">
+            <label>Gender</label>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+            <label>Email:</label>
+                <input type="email" name="email">
+            <label>Phone:</label>
+                <input type="tel" name="phone">
+            <label>Which one you perfer us to contact you first?</label>
+            <select>
+                <option>Email</option>
+                <option>Phone</option>
+            </select>
+            <label>Tell us what we could help you today?</label>
+                <textarea rows="10" cols="30">Type here......</textarea>
+            <label>We will contact you as soon as possible after you submit.</label>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>    
+        </fieldset>
+    </form>
+        <br><br><br><br>
+    <form action="application" method="POST">
+        <fieldset>
+            <legend><h2 class="contact-h2">Future Adoption Application</h2></legend>
+            <div class="formstyle">
+            <p>Thank you for your interest in the adoption of an animal from WeCat. We would appreciate you
+                answering the following questions so that we best determine compatibility between you and the animal question.</p>
+            <h4>Adoption Fees: Cat/Kittens: $100-$200</h4>
+            <p>Our adoption fee includes spay/neuter, microchipping, heartworm testing (treatment if necessary), FIV/FeLV test, age appropriate vaccinations, fecal float, treatment for internal/external parasites, and a complete veterinary physical exam.</p>
+            <br>
+            <h4>Animal Information</h4>
+            <label>Name of the Cat:</label>
+            <input type="text" name="name">
+            <label>License number of the Cat:</label>
+            <input type="text" name="number">
+            <label>Gender of the Cat:</label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+        </fieldset>
+    </form>
+    </main>
+    </body>
+
+    <footer>
+        <div id="nondisclaimer">
+            <div class="social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+            </div>
+        </div>
+        <div id="disclaimer">
+            <p>&copy;Copyright 2020 WeCat.com</p>
+            <p>This website is designed and created solely for educational purposes only at Westcliff University. All contents are not intended for any commercial gain or use.</p>
+        </div>
+    </footer>
+</html>    
