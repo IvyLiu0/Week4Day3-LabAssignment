@@ -20,7 +20,7 @@ for (var i=0; i<10; i++) {
     photos.push("<img src='images/" + fileNames[i] + ".jpeg'/>");
     captions.push(openCaptionTag + "<h3>"+ captionName[i] + "</h3>" + closeCaptionTag);
     description.push(openDescTag + descText +closeDescTag);
-    image = openList + photos[i] + captions[i] + description[i]  + closeList;
+    image = openList + photos[i] + captions[i] + description + closeList;
     imageList.push(image);
 
 }
