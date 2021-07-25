@@ -38,6 +38,6 @@ for (var i=0; i<10; i++) {
 }
 
 //display all ten image codes stored in the array
-document.getElementById("album").innerHTML = imageList;
+document.getElementById("album").innerHTML = imageList.join('');
 
 
