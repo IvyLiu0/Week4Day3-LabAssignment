@@ -261,7 +261,115 @@ footer{
 
 
 
-#myBtn{
+#myBtn0 {
+    position: relative;
+    top: -300px;
+    font-family: monospace;
+    color: #AAD29E;
+    font-size:xx-large;
+    font-weight: bolder;
+    background-color: #fefefe;
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+#myBtn1 {
+    position: relative;
+    top: -300px;
+    font-family: monospace;
+    color: #AAD29E;
+    font-size:xx-large;
+    font-weight: bolder;
+    background-color: #fefefe;
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+#myBtn2 {
+    position: relative;
+    top: -300px;
+    font-family: monospace;
+    color: #AAD29E;
+    font-size:xx-large;
+    font-weight: bolder;
+    background-color: #fefefe;
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+#myBtn3 {
+    position: relative;
+    top: -300px;
+    font-family: monospace;
+    color: #AAD29E;
+    font-size:xx-large;
+    font-weight: bolder;
+    background-color: #fefefe;
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+#myBtn4 {
+    position: relative;
+    top: -300px;
+    font-family: monospace;
+    color: #AAD29E;
+    font-size:xx-large;
+    font-weight: bolder;
+    background-color: #fefefe;
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+#myBtn5 {
+    position: relative;
+    top: -300px;
+    font-family: monospace;
+    color: #AAD29E;
+    font-size:xx-large;
+    font-weight: bolder;
+    background-color: #fefefe;
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+#myBtn6 {
+    position: relative;
+    top: -300px;
+    font-family: monospace;
+    color: #AAD29E;
+    font-size:xx-large;
+    font-weight: bolder;
+    background-color: #fefefe;
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+#myBtn7 {
+    position: relative;
+    top: -300px;
+    font-family: monospace;
+    color: #AAD29E;
+    font-size:xx-large;
+    font-weight: bolder;
+    background-color: #fefefe;
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+#myBtn8 {
+    position: relative;
+    top: -300px;
+    font-family: monospace;
+    color: #AAD29E;
+    font-size:xx-large;
+    font-weight: bolder;
+    background-color: #fefefe;
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+#myBtn9 {
     position: relative;
     top: -300px;
     font-family: monospace;
@@ -281,17 +389,80 @@ footer{
     cursor: pointer;
 }
 
-#myBtn{
+#myBtn0 {
     visibility: hidden;
 }
 
-.photo:hover #myBtn{
+#myBtn1 {
+    visibility: hidden;
+}
+
+#myBtn2 {
+    visibility: hidden;
+}
+
+#myBtn3 {
+    visibility: hidden;
+}
+
+#myBtn4 {
+    visibility: hidden;
+}
+
+#myBtn5{
+    visibility: hidden;
+}
+
+#myBtn6 {
+    visibility: hidden;
+}
+
+#myBtn7 {
+    visibility: hidden;
+}
+
+#myBtn8 {
+    visibility: hidden;
+}
+
+#myBtn9 {
+    visibility: hidden;
+}
+
+.photo:hover #myBtn0 {
+    visibility: visible;
+}
+.photo:hover #myBtn1 {
+    visibility: visible;
+}
+.photo:hover #myBtn2 {
+    visibility: visible;
+}
+.photo:hover #myBtn3 {
+    visibility: visible;
+}
+.photo:hover #myBtn4 {
+    visibility: visible;
+}
+.photo:hover #myBtn5 {
+    visibility: visible;
+}
+.photo:hover #myBtn6 {
+    visibility: visible;
+}
+.photo:hover #myBtn7 {
+    visibility: visible;
+}
+.photo:hover #myBtn8 {
+    visibility: visible;
+}
+.photo:hover #myBtn9 {
     visibility: visible;
 }
 
 /* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
+    display: none; /* Hidden by defa,ult */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     padding-top: 100px; /* Location of the box */
